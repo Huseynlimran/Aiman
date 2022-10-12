@@ -1,6 +1,6 @@
 // Container & breakpoints
 @use 'sass:math';
-$containerWidth:1504;
+$containerWidth:1176;
 $containerPadding:40;
 $containerSidePadding: math.div($containerPadding, 2);
 $breakpoint1200:1119.98 + px;
@@ -26,7 +26,7 @@ $breakpoint480:479.98 + px;
 
 
 *{
-    font-family:'Oswald', sans-serif;
+    font-family: 'Plus Jakarta Sans';
     box-sizing: border-box;
 }
 body{
@@ -36,8 +36,8 @@ body{
 //Fonts 
 
 // Colors
-$blue:#0057FF;
-$yellow:#FFA332;
+$yellow:#cff306;
+$gray:#ffffff85;
 $black:#000000;
 $purple:#B861FF;
 

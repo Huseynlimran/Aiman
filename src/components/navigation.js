@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from "react";
@@ -7,6 +8,10 @@ const Navigation = () => {
   const [toggleIcon, setToggleIcon] = useState("burger");
 
   const showNav = () => {
+
+    
+
+
     active === "nav-links"
       ? setActive("navlinks nav-active")
       : setActive("nav-links");
@@ -18,10 +23,10 @@ const Navigation = () => {
       : setToggleIcon("burger");
   };
   return (
-    <nav>
+    <nav className="navSticky">
       <div className="container">
         <a href="#D">
-          <img  alt="" />
+          <img src="img/logo.png" alt="" />
         </a>
 
         <ul className={active}>
@@ -29,40 +34,42 @@ const Navigation = () => {
 
           <li className="listLi">
             <a href="#D" className="linksNav">
-              How it Works
+              PRODUCTS
             </a>
           </li>
           <li className="listLi">
             <a href="#myskills" className="linksNav">
-              Features
+              SOLUTIONS
             </a>
           </li>
           <li className="listLi">
             <a href="#project" className="linksNav">
-              Pricing
+              SOLUTIONS
             </a>
           </li>
           <li className="listLi">
             <a href="#aboutme" className="linksNav">
-              Help
+              PRICING
             </a>
           </li>
           <li className="listLi">
             <a href="#aboutme" className="linksNav">
-              Blog
+              RESOURCES
             </a>
           </li>
           <li className="listLi">
-            <a href="#aboutme" className="linksNav">
-              Log In
-            </a>
-          </li>
-          <li className="listli">
-            <a className="btn">
-              Sign Up <img alt="logo" />
+            <a href="#registerNow" className="linksNav registerLink">
+              REGISTER NOW
+              <img
+                src="img/arrow-down-left.png"
+                className="arrow"
+                alt="arrow"
+              />
             </a>
           </li>
         </ul>
+
+        <div></div>
 
         <div className={toggleIcon} onClick={showNav}>
           <div className="line1"></div>

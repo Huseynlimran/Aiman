@@ -1,0 +1,120 @@
+.container {
+  .art {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -58%);
+  }
+  .handle {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 80%;
+    z-index: -1;
+  }
+
+  .home {
+    padding-top: 186px;
+    h1 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 105px;
+      line-height: 141px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: $gray;
+      // background: linear-gradient(
+      //   90.01deg,
+      //   #ffffff 0.01%,
+      //   rgba(255, 255, 255, 0.3) 49.48%,
+      //   #ffffff 99.99%
+      // );
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      // background-clip: text;
+      span {
+        color: $yellow;
+      }
+    }
+
+    .home_boxs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 74px;
+      padding-bottom: 20px;
+
+
+      .box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        h3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 52px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          color: white;
+        }
+        .box1 {
+          border: 1px solid rgba(128, 128, 128, 0.192);
+          padding: 30px;
+          border-radius: 32px;
+          p {
+            font-family: "Plus Jakarta Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 200%;
+            color: #ffffff;
+            opacity: 0.5;
+          }
+        }
+      }
+
+      .box_right {
+        p {
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          width: 373px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 200%;
+          letter-spacing: -0.03em;
+          color: #ffffff;
+          opacity: 0.5;
+          margin-bottom: 48px;
+        }
+        button {
+          background-color: white;
+          border-radius: 120px;
+          padding: 23px 35px;
+          border: none;
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 25px;
+          text-align: center;
+          color: #1a1a1a;
+          transition: .5s ease;
+          cursor: pointer;
+          &:hover{
+            background-color: $yellow;
+            color: white;
+            box-shadow: 0 0 20px white;
+          }
+        }
+      }
+    }
+  }
+}
