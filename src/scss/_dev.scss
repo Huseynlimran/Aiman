@@ -1,0 +1,60 @@
+.container {
+  .dev {
+    .dev_tittle {
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 94px;
+        letter-spacing: 1px;
+        color: #ffffff;
+      }
+    }
+
+    .dev_items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 34px;
+      .dev_center{
+        display: flex;
+        flex-direction: column;
+        gap: 110px;
+        border-left: 1px solid rgba(128, 128, 128, 0.171);
+        border-right: 1px solid rgba(128, 128, 128, 0.205);
+        padding: 0px 20px;
+
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        .box_description {
+          h4 {
+            font-family: "Plus Jakarta Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 200%;
+            color: #ffffff;
+          }
+          p {
+            font-family: "Plus Jakarta Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 200%;
+            letter-spacing: -0.03em;
+            color: #ffffff;
+            opacity: 0.5;
+          }
+        }
+      }
+      .dev_itemLeft {
+        
+      }
+    }
+  }
+}

@@ -44,7 +44,7 @@ const Navigation = () => {
           </li>
           <li className="listLi">
             <a href="#project" className="linksNav">
-              SOLUTIONS
+            CUSTOMER
             </a>
           </li>
           <li className="listLi">

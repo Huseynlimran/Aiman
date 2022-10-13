@@ -1,0 +1,32 @@
+.container {
+  .support {
+    padding-top: 150px;
+    .support_tittle {
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 94px;
+        letter-spacing: 1px;
+        color: #ffffff;
+      }
+    }
+    .support_items {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+      .item {
+        width: 320px;
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 160%;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

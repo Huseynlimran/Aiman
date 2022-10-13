@@ -24,7 +24,7 @@ const Home = () => {
         </div>
       </div>
 
-      <img src="img/art.png" className="art" alt="" />
+      <img src="img/art4.png" className="art" alt="" />
       <img src="img/handle1.png" className="handle" alt="" />
     </section>
   );
