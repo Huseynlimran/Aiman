@@ -15,6 +15,13 @@
     @media (max-width: 637px) {
       top: 30%;
     }
+    @media (max-width: 1700px) {
+      top: 35%;
+    }
+    @media (max-width: 393px) {
+      top: 40%;
+    }
+    
   }
   .handle {
     position: absolute;
@@ -41,12 +48,19 @@
     @media (max-width: 810px) {
       width: 100%;
     }
+    @media (max-width: 393px) {
+      top: 51%;
+      left: -10%;
+    }
   }
 
   .home {
     padding-top: 186px;
     @media (max-width: 650px) {
       padding-top: 150px;
+    }
+    @media (max-width: 1700px) {
+      padding-top: 140px;
     }
     h1 {
       font-family: "Raleway";
@@ -137,6 +151,7 @@
           @media (max-width: 449px) {
             padding: 15px;
            }
+           
 
           p {
             font-family: "Plus Jakarta Sans";
@@ -148,6 +163,10 @@
             opacity: 0.5;
             @media (max-width: 810px) {
               font-size: 12px;
+            }
+            @media (max-width: 393px) {
+              font-size: 10px;
+              line-height: 100%;
             }
           }
         }
