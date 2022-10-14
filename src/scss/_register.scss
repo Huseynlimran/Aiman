@@ -6,30 +6,55 @@
   background: linear-gradient(307.72deg, #a7f306 2.04%, #f3cd06 98.59%);
   display: flex;
   align-items: center;
-  .text{
+  justify-content: center;
+  .text {
     display: flex;
     align-items: center;
-  gap: 20px;
-
+    justify-content: space-between;
     animation: slide 22s alternate-reverse infinite;
 
-    @keyframes slide {
-
-        to{
-            transform: translateX(-20%);
+    .subtext {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-right: 20px;
+      img {
+        @media (max-width: 730px) {
+          width: 42px;
         }
-        from{
-            transform: translateX(80%);
+        @media (max-width: 566px) {
+          width: 22px;
         }
-        
+      }
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: 0.04em;
+        @media (max-width: 730px) {
+          font-size: 14px;
+          line-height: 100%;
+        }
+        @media (max-width: 566px) {
+          font-size: 12px;
+          line-height: -2px;
+        }
+        @media (max-width: 510px) {
+          font-size: 8px;
+          line-height: -2px;
+        }
+      }
     }
-  }
-  h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 200%;
-    letter-spacing: 0.04em;
+
+    @keyframes slide {
+      to {
+        transform: translateX(-20%);
+      }
+      from {
+        transform: translateX(80%);
+      }
+    }
   }
 }

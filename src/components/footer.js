@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="container">
@@ -13,19 +15,19 @@ const Footer = () => {
         <div className="box_right">
           <ul>
             <li>
-                <a href="#">PRODUCTS</a>
+                <NavLink to="#">PRODUCTS</NavLink>
             </li>
             <li>
-                <a href="#">SOLUTIONS</a>
+                <NavLink to="#">SOLUTIONS</NavLink>
             </li>
             <li>
-                <a href="#">CUSTOMER</a>
+                <NavLink to="#">CUSTOMER</NavLink>
             </li>
             <li>
-                <a href="#">PRICING</a>
+                <NavLink to="#">PRICING</NavLink>
             </li>
             <li>
-                <a href="#">RESOURCES</a>
+                <NavLink to="#">RESOURCES</NavLink>
             </li>
           </ul>
 
