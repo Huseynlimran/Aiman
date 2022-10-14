@@ -1,0 +1,32 @@
+.container {
+  .say {
+    padding-top: 150px;
+    .say_tittle {
+      display: flex;
+      justify-content: center;
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 94px;
+        letter-spacing: 1px;
+        color: #ffffff;
+      }
+    }
+    .say_subtittle {
+      p {
+        padding-top: 60px;
+        span{
+            color: white;
+        }
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 200%;
+        color: #8b8b8b;
+      }
+    }
+  }
+}
