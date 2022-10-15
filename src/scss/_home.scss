@@ -3,7 +3,7 @@
     width: 490px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -35%);
     @media (max-width: 1197px) {
       top: 40%;
@@ -15,9 +15,7 @@
     @media (max-width: 637px) {
       top: 30%;
     }
-    @media (max-width: 1700px) {
-      top: 35%;
-    }
+  
     @media (max-width: 393px) {
       top: 40%;
     }

@@ -9,6 +9,16 @@
         line-height: 94px;
         letter-spacing: 1px;
         color: #ffffff;
+        @media (max-width: 1044px) {
+          font-size: 65px;
+        }
+        @media (max-width: 894px) {
+          font-size: 35px;
+        }
+        @media (max-width: 496px) {
+          font-size: 24px;
+          line-height: 20px;
+        }
       }
     }
 
@@ -17,19 +27,49 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 34px;
-      .dev_center{
+      @media (max-width: 1044px) {
+        flex-direction: column;
+      }
+      @media (max-width: 644px) {
+        img {
+          width: 90px;
+        }
+      }
+      .dev_center {
         display: flex;
         flex-direction: column;
         gap: 110px;
         border-left: 1px solid rgba(128, 128, 128, 0.171);
         border-right: 1px solid rgba(128, 128, 128, 0.205);
         padding: 0px 20px;
-
+        @media (max-width: 1044px) {
+          flex-direction: row;
+          gap: 200px;
+          img {
+            transform: rotate(90deg);
+          }
+        }
+        @media (max-width: 700px) {
+          gap: 80px;
+          img {
+            width: 70px;
+          }
+        }
+        @media (max-width: 414px) {
+          gap: 80px;
+          img {
+            width: 40px;
+          }
+          padding: 0px 10px;
+        }
       }
       .box {
         display: flex;
         align-items: center;
         gap: 32px;
+        @media (max-width: 500px) {
+          gap: 20px;
+        }
 
         .box_description {
           h4 {
@@ -39,6 +79,10 @@
             font-size: 24px;
             line-height: 200%;
             color: #ffffff;
+            @media (max-width: 500px) {
+              font-size: 16px;
+              line-height: 140%;
+            }
           }
           p {
             font-family: "Plus Jakarta Sans";
@@ -49,11 +93,14 @@
             letter-spacing: -0.03em;
             color: #ffffff;
             opacity: 0.5;
+            @media (max-width: 500px) {
+              font-size: 12px;
+              line-height: 140%;
+            }
           }
         }
       }
       .dev_itemLeft {
-        
       }
     }
   }

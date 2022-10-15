@@ -11,6 +11,10 @@
         text-align: center;
         letter-spacing: 1px;
         color: #ffffff;
+        @media(max-width: 908px){
+          font-size: 60px;
+        }
+        
       }
     }
     .items{

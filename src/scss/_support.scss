@@ -10,14 +10,40 @@
         line-height: 94px;
         letter-spacing: 1px;
         color: #ffffff;
+        @media(max-width: 908px){
+          font-size: 50px;
+        }
+        @media(max-width: 606px){
+          font-size: 36px;
+        }
+        @media(max-width: 438px){
+          font-size: 26px;
+          line-height: 40px;
+        }
+        
       }
     }
     .support_items {
         padding-top: 50px;
         display: flex;
         align-items: center;
+        @media(max-width: 536px){
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 5px;
+        }
+        
       .item {
         width: 320px;
+        @media(max-width: 536px){
+          flex: 1 0 48%;
+        }
+        @media(max-width: 1402px){
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
         p {
           font-family: "Raleway";
           font-style: normal;
@@ -25,6 +51,22 @@
           font-size: 30px;
           line-height: 160%;
           color: #ffffff;
+          @media(max-width: 1110px){
+            font-size: 20px;
+            line-height: 120%;
+          }
+          @media(max-width: 742px){
+            font-size: 14px;
+            line-height: 120%;
+          }
+          @media(max-width: 536px){
+            font-size: 10px;
+            line-height: 120%;
+          }
+          @media(max-width: 380px){
+            font-size: 8px;
+            line-height: 110%;
+          }
         }
       }
     }
