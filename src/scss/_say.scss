@@ -12,6 +12,14 @@
         line-height: 94px;
         letter-spacing: 1px;
         color: #ffffff;
+        @media(max-width: 708px){
+          font-size: 56px;
+        }
+        @media(max-width:514px){
+          font-size: 34px;
+          line-height: 40px;
+        }
+        
       }
     }
     .say_subtittle {
@@ -26,6 +34,11 @@
         font-size: 48px;
         line-height: 200%;
         color: #8b8b8b;
+        @media(max-width:552px){
+          font-size: 26px;
+          padding-top: 20px;
+          text-align: center;
+        }
       }
     }
   }

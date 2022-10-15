@@ -1,6 +1,9 @@
 .container {
   .supported {
     padding-top: 150px;
+    @media(max-width: 530px){
+    padding-top: 50px;
+    }
     .tittle {
       h1 {
         font-family: "Raleway";
@@ -14,6 +17,9 @@
         @media(max-width: 908px){
           font-size: 60px;
         }
+        @media(max-width: 530px){
+          font-size: 36px;
+        }
         
       }
     }
@@ -24,9 +30,15 @@
         justify-content: space-evenly;
         gap: 48px;
         flex-wrap: wrap;
+        @media(max-width: 530px){
+          gap:20px
+        }
         
 
         img{
+          @media(max-width: 530px){
+            flex: 1 1 18%;
+          }
         }
        
     }

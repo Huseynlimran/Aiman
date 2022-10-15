@@ -1,6 +1,9 @@
 .container {
   .support {
     padding-top: 150px;
+    @media(max-width: 438px){
+      padding-top: 50px;
+    }
     .support_tittle {
       h1 {
         font-family: "Raleway";
