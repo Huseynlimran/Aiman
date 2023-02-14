@@ -2,7 +2,6 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import Trukahh from "./trukahh";
 import Aselii from "./aselii";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
-import Rilcuy from "./rilcuyy";
 import Rilcuyy from "./rilcuyy";
 
 const Tech = () => {
