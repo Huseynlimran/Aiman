@@ -2,6 +2,8 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import Trukahh from "./trukahh";
 import Aselii from "./aselii";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
+import Rilcuy from "./rilcuyy";
+import Rilcuyy from "./rilcuyy";
 
 const Tech = () => {
   const [animationParent] = useAutoAnimate();
@@ -17,7 +19,7 @@ const Tech = () => {
         <div className="tech_nav">
           <ul>
             <li>
-              <NavLink to="/rillcuy" defaultChecked>
+              <NavLink to="/rilcuyy" >
                 RILLCUY
               </NavLink>
             </li>
@@ -36,10 +38,12 @@ const Tech = () => {
           </ul>
         </div>
         <Routes>
+          <Route path="/Rilcuyy" element={<Rilcuyy />} />
+          <Route path="/" element={<Rilcuyy />} />
           <Route path="/Trukahh" element={<Trukahh />} />
           <Route path="/Aselii" element={<Aselii />} />
         </Routes>
-        <div className="tech_info">
+        {/* <div className="tech_info">
           <div className="tech_text">
             <h1>
               RILLCUY <span> AI.</span>
@@ -70,7 +74,7 @@ const Tech = () => {
           <div className="tech_img">
             <img src="img/art4.png" alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
